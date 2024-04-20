@@ -611,3 +611,9 @@ nav {
     text-align: center;
   }
 }
+
+@media (width < 420px) {
+  .class__container img{
+    display: none;
+  }
+}
