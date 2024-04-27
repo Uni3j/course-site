@@ -617,4 +617,7 @@ nav {
   .class__content img{
     display: none;
   }
+  .nav__links{
+    display: none;
+  }
 }
