@@ -86,17 +86,14 @@ nav {
 .nav__logo> a {
     color: #d1d5db;
     position: absolute;
+    font-size: large;
+    font-weight: 900;
+    top: 3rem;
 
 }
 
-.nav__links {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-}
 
-.link a {
+ {
   position: relative;
   padding-bottom: 0.75rem;
   color: var(--white);
@@ -533,9 +530,6 @@ nav {
 }
 
 @media (width < 900px) {
-  .nav__links {
-    display: none;
-  }
 
   .header__container {
     grid-template-columns: repeat(1, 1fr);
@@ -610,14 +604,20 @@ nav {
   .footer__bar {
     text-align: center;
   }
+
+  .nav__logo> a {
+    font-size: small;
+
+  }
+  .header__content>h1 {
+    
+  }
+
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 400px) {
   .class__content img{
-    display: none;
-  }
-  .nav__links{
     display: none;
   }
 }
