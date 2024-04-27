@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #payment-options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .payment-option {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .payment-option:hover {
+            transform: translateY(-5px);
+        }
+
+        .payment-option h3 {
+            margin-top: 0;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Payment Site</h1>
+</header>
+
+<main>
+    <section id="payment-options">
+        <div class="payment-option">
+            <h3>Cryptocurrency Payment</h3>
+            <p>Instructions for paying with cryptocurrencies will be displayed here.</p>
+            <button><i class="fab fa-bitcoin"></i> Pay with Cryptocurrency</button>
+        </div>
+        <div class="payment-option">
+            <h3>Bank Transfer</h3>
+            <p>Instructions for paying via bank transfer will be displayed here.</p>
+            <button><i class="fas fa-university"></i> Pay with Bank Transfer</button>
+        </div>
+        <div class="payment-option">
+            <h3>Other Payment Methods</h3>
+            <p>Instructions for other payment methods will be displayed here.</p>
+            <button><i class="fas fa-money-check"></i> Other Payment Methods</button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Payment Site. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
