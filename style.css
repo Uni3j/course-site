@@ -141,9 +141,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.class__content img{
-  width: 128px;
-}
+
 .right{
   margin-right: 45px;
 }
@@ -594,13 +592,9 @@ nav {
 
   }
   .header__content>h1 {
-    font-size: 65px;
+    font-size: 3.5rem;
     
   }
-
-  .class__content img{
-    display: none;
-   }
 
 }
 
