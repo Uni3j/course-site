@@ -93,12 +93,6 @@ nav {
 }
 
 
- {
-  position: relative;
-  padding-bottom: 0.75rem;
-  color: var(--white);
-}
-
 .link a::after {
   content: "";
   position: absolute;
@@ -594,7 +588,7 @@ nav {
 
   }
   .header__content>h1 {
-    font-size: 3.5rem;
+    font-size: 65px;
     
   }
 
